@@ -1,0 +1,150 @@
+body{
+    margin: 0 ;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 2.6rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.626rem;
+    color: #66BFBF;
+    /* line-height: 2;    give or take the heigth between the two boxes */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;  /* font weigth decides the boldness or strongness of the text*/
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color:  #11999E;
+}
+
+hr{
+    border-style: dotted none  none;
+    color: grey;
+    width: 10%;
+    border-width: 5px;
+    margin: 15px auto 15px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    margin-right: 10px;
+}
+
+a:hover{
+    color: #29b58f;
+}
+.top_container{
+    background-color: #EFFFFD;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container{
+    background-color:#d2fdfd;
+    height: 130px;
+    padding-top: 35px;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    
+}
+
+.top_cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.mountain{
+    margin-bottom: 30px;
+}
+
+.head_dev{
+    padding-left: 9.375rem;
+}
+
+.profile{
+    padding-bottom: 20px;
+}
+
+.skill-row{
+    width: 60%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+    text-align: left;
+    line-height: 2;
+}
+
+.data_management{
+    width: 25%;
+    float: left;   /* this helps to wraps the text around the images or make the thing ot aside and put the other on side of it*/
+    /* to clear this property we can also use clear tag*/
+    padding-right: 30px;
+}
+
+.web_design{
+    width: 20%;
+    float: right;
+    padding-left: 30px;
+}
+
+.profile-pic{
+    width: 250px;
+    margin-top: 50px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.rights{
+    text-align: right;
+    color: #593d72;
+    font-size: 0.75rem;
+}
+
+.footerimage{
+    width: 3%;
+    background-color: grey;
+    margin-left: 5px;
+}
